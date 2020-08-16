@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>FirstServlet</servlet-name>
+  	<display-name>FirstServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.FirstServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserServlet</servlet-name>
+  	<display-name>UserServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.Ecommer.controller.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CategoryServlet</servlet-name>
+  	<display-name>CategoryServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.Ecommer.controller.CategoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ProductServlet</servlet-name>
+  	<display-name>ProductServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.Ecommer.controller.ProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.Ecommer.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FeedbackServlet</servlet-name>
+  	<display-name>FeedbackServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.Ecommer.controller.FeedbackServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PlaceOrderServlet</servlet-name>
+  	<display-name>PlaceOrderServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.Ecommer.controller.PlaceOrderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FirstServlet</servlet-name>
+  	<url-pattern>/FirstServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserServlet</servlet-name>
+  	<url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CategoryServlet</servlet-name>
+  	<url-pattern>/CategoryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProductServlet</servlet-name>
+  	<url-pattern>/ProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FeedbackServlet</servlet-name>
+  	<url-pattern>/FeedbackServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PlaceOrderServlet</servlet-name>
+  	<url-pattern>/PlaceOrderServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
